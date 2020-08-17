@@ -28,4 +28,4 @@ console.log(subtract(10,3));
 console.log(multiply(6,2));
 console.log(increment(5));
 console.log(decrement(5));
-console.log(makeInt(2));
+console.log(makeInt("2"));
