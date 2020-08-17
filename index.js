@@ -19,7 +19,9 @@ function divide(a, b){
 function makeInt(n){
   return parseInt('n', 10)
 }
-
+function preserveDecimal(n){
+  return parseFloat("2.222");
+}
 
 
 console.log(divide(10,2));
@@ -29,3 +31,4 @@ console.log(multiply(6,2));
 console.log(increment(5));
 console.log(decrement(5));
 console.log(makeInt('2'));
+console.log(preserveDecimal(10.4454));
